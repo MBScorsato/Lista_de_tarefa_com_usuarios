@@ -1,0 +1,128 @@
+.container-fluid{
+    padding: 0;
+}
+/* Navbar */
+
+.navbar{
+    borber-bottom: 2px solid #333;
+    margin-bottom: 20px;
+}
+
+.navbar-nav{
+    margin: auto;
+}
+
+.navbar-brand{
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav a.nav-link{
+    color: #333
+    letter-spacing: 2px;
+}
+
+/* Botao add */
+
+add-div{
+    background-color: #3476e2;
+    cursor: pointer;
+    display: inline-block;
+    color: #ffffff;
+    padding: 8px;
+    borber-radius: 5px;
+    margin-right: 25px;
+}
+
+.fas.fa-plus{
+    color: green;
+    margin-right: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+
+}
+
+/* campo de busca */
+
+.fas.fa-search{
+    position: absolute;
+    top: 198px;
+    right: 750px;
+    cursor: pointer;
+}
+
+.search-div{
+    padding: 0px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+/* Lista de tarefas */
+
+.list-div{
+    padding: 0;
+}
+
+
+
+
+.task-list{
+    padding:0
+}
+
+.task-item{
+    list-style: none;
+    font-size: 20px;
+    height: 50px;
+    padding-top: 10px;
+    border-bottom: 1px dashed #ccc;
+}
+
+.fas.fa-trash, .fas.fa-edit{
+    cursor: pointer;
+    margin: 5px;
+    font-size: 20px;
+    float: right;
+}
+
+.fas.fa-trash{
+    color: red;
+}
+
+.fas.fa-edit{
+    color: #13c43f;
+}
+
+/* Rodapé */
+
+footer{
+    background-color: #333
+    height: 300px;
+    border-top: 3px solid #202020;
+}
+
+footer p{
+    color: #c0c0c0;
+    text-align: center;
+    top: 50%;
+    position: relative;
+}
+
+.add-link{
+    text-decoration: none;
+}
+
+
+ul.messages{
+
+    padding: 0;
+}
+
+ul.messages li{
+    list-style: none;
+}
+
+.auth-card{
+    margin-bottom: 30px;
+
+}
